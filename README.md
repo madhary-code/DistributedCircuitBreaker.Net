@@ -139,9 +139,3 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 * [StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis) for the Redis client
 
 ```
-
----
-
-✅ This is **ready to drop into your repo**.  
-Bro, do you also want me to prep a **`CONTRIBUTING.md` + GitHub Actions build workflow** so your repo looks professional from day one?
-```

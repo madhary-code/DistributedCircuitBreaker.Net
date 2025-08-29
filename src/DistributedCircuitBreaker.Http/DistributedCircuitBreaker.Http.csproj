@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>HttpClient handler integrating distributed circuit breaker.</Description>
+    <PackageId>DistributedCircuitBreaker.Http</PackageId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../DistributedCircuitBreaker.Core/DistributedCircuitBreaker.Core.csproj" />
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+  </ItemGroup>
+</Project>

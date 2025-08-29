@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Polly adapter for DistributedCircuitBreaker.</Description>
+    <PackageId>DistributedCircuitBreaker.Polly</PackageId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../DistributedCircuitBreaker.Core/DistributedCircuitBreaker.Core.csproj" />
+    <PackageReference Include="Polly" Version="8.0.0" />
+  </ItemGroup>
+</Project>

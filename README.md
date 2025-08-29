@@ -1,4 +1,4 @@
-# DistributedCircuitBreaker.Redis
+# DistributedCircuitBreaker.Redis 
 
 > **Note**: this repository originally contained only this README. The full .NET solution is generated at first clone; run `dotnet build` to restore and compile all projects.
 

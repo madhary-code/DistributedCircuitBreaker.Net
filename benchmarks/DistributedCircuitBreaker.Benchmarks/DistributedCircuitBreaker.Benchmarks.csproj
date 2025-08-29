@@ -7,5 +7,6 @@
     <ProjectReference Include="../../src/DistributedCircuitBreaker.Core/DistributedCircuitBreaker.Core.csproj" />
     <ProjectReference Include="../../src/DistributedCircuitBreaker.Redis/DistributedCircuitBreaker.Redis.csproj" />
     <PackageReference Include="BenchmarkDotNet" Version="0.13.10" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.12.0" />
   </ItemGroup>
 </Project>

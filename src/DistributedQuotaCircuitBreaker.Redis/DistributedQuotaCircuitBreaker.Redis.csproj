@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Redis-backed quota-based circuit breaker that routes to a secondary endpoint when the primary quota is exceeded.</Description>
+    <PackageId>DistributedQuotaCircuitBreaker.Redis</PackageId>
+    <PackageReleaseNotes>
+      Provides a Redis-based quota circuit breaker that counts requests against a quota window and switches to a secondary endpoint when the quota is exceeded.
+    </PackageReleaseNotes>
+    <PackageTags>$(PackageTags);quota;redis;circuit-breaker</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="StackExchange.Redis" Version="2.9.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="8.0.0" />
+    <PackageReference Update="MinVer" Version="6.0.0" />
+  </ItemGroup>
+</Project>

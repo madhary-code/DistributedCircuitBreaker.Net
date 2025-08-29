@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Test.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
     <IsPackable>false</IsPackable>
@@ -6,11 +6,13 @@
   <ItemGroup>
     <ProjectReference Include="../../src/DistributedCircuitBreaker.Core/DistributedCircuitBreaker.Core.csproj" />
     <ProjectReference Include="../../src/DistributedCircuitBreaker.Redis/DistributedCircuitBreaker.Redis.csproj" />
+    <ProjectReference Include="../../src/DistributedQuotaCircuitBreaker.Redis/DistributedQuotaCircuitBreaker.Redis.csproj" />
   </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="xunit" Version="2.6.6" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.6" />
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
-    <PackageReference Include="Testcontainers" Version="3.6.0" />
-  </ItemGroup>
-</Project>
+    <ItemGroup>
+      <PackageReference Include="xunit" Version="2.6.6" />
+      <PackageReference Include="xunit.runner.visualstudio" Version="2.5.6" />
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
+      <PackageReference Include="Testcontainers" Version="3.6.0" />
+      <PackageReference Include="Testcontainers.Redis" Version="3.6.0" />
+    </ItemGroup>
+  </Project>

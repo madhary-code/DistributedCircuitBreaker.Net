@@ -1,7 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Description>Redis-backed store for distributed circuit breaker.</Description>
+    <Description>Redis-backed distributed storage implementation for circuit breaker state coordination across multiple application instances.</Description>
     <PackageId>DistributedCircuitBreaker.Redis</PackageId>
+    <PackageReleaseNotes>
+      Redis implementation of IClusterBreakerStore providing high-performance distributed state coordination.
+      Features: Sliding window buckets, atomic probe semaphores, TTL-based cleanup, connection multiplexing.
+    </PackageReleaseNotes>
+    <PackageTags>$(PackageTags);redis;distributed-storage;cluster-coordination</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="../DistributedCircuitBreaker.Core/DistributedCircuitBreaker.Core.csproj" />

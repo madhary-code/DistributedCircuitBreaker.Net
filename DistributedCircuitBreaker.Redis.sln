@@ -1,4 +1,4 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -13,6 +13,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedCircuitBreaker.Benchmarks", "benchmarks\DistributedCircuitBreaker.Benchmarks\DistributedCircuitBreaker.Benchmarks.csproj", "{6DFED68B-16CA-48EA-99BA-AB943460C075}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Web", "samples\Sample.Web\Sample.Web.csproj", "{54751268-B034-4AFA-B793-FB79C79C5157}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7CD764B9-3170-420A-9A4D-D01BCE6C7153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistributedQuotaCircuitBreaker.Redis", "src\DistributedQuotaCircuitBreaker.Redis\DistributedQuotaCircuitBreaker.Redis.csproj", "{2EC1A16C-6F1F-4545-AC40-9756FADF4B16}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,8 +48,15 @@ Global
 		{54751268-B034-4AFA-B793-FB79C79C5157}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54751268-B034-4AFA-B793-FB79C79C5157}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54751268-B034-4AFA-B793-FB79C79C5157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EC1A16C-6F1F-4545-AC40-9756FADF4B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EC1A16C-6F1F-4545-AC40-9756FADF4B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EC1A16C-6F1F-4545-AC40-9756FADF4B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EC1A16C-6F1F-4545-AC40-9756FADF4B16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EC1A16C-6F1F-4545-AC40-9756FADF4B16} = {7CD764B9-3170-420A-9A4D-D01BCE6C7153}
 	EndGlobalSection
 EndGlobal

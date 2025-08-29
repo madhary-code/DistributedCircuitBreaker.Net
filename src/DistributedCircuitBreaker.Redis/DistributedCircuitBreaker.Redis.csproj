@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <Description>Redis-backed store for distributed circuit breaker.</Description>
+    <PackageId>DistributedCircuitBreaker.Redis</PackageId>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../DistributedCircuitBreaker.Core/DistributedCircuitBreaker.Core.csproj" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.122" />
+  </ItemGroup>
+</Project>

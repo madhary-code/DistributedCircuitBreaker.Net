@@ -6,9 +6,13 @@
     <ProjectReference Include="../../src/DistributedCircuitBreaker.Core/DistributedCircuitBreaker.Core.csproj" />
     <ProjectReference Include="../../src/DistributedCircuitBreaker.Redis/DistributedCircuitBreaker.Redis.csproj" />
     <ProjectReference Include="../../src/DistributedCircuitBreaker.Http/DistributedCircuitBreaker.Http.csproj" />
-    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.7.0" />
-    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.7.0" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.12.0" />
+    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.12.0" />
     <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.12.0" />
-    <PackageReference Include="StackExchange.Redis" Version="2.6.122" />
+    <PackageReference Include="StackExchange.Redis" Version="2.9.11" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Update="Microsoft.SourceLink.GitHub" Version="8.0.0" />
+    <PackageReference Update="MinVer" Version="6.0.0" />
   </ItemGroup>
 </Project>

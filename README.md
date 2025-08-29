@@ -11,7 +11,7 @@ A production-grade distributed circuit breaker for .NET 8 with Redis-backed shar
 - `DistributedCircuitBreaker.Polly` – Polly adapter
 - `DistributedCircuitBreaker.Tests.Unit` / `Integration`
 - `DistributedCircuitBreaker.Benchmarks`
-- `samples/Sample.Web`
+- `samples/Sample.Web` – chaos testing sample with primary/secondary failover
 
 ## Getting Started
 ```bash
